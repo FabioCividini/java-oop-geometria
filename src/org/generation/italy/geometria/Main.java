@@ -16,7 +16,7 @@ public class Main {
 		
 		Rettangolo areaRettangolo = new Rettangolo(base, altezza);
 		int area = areaRettangolo.calcolaArea();
-		System.out.println("L'AREA del rettangolo è: " + area + "cm");
+		System.out.println("L'AREA del rettangolo è: " + area + "cm\u00B2");
 		
 		Rettangolo perimetroRettangolo = new Rettangolo(base, altezza);
 		int perimetro = perimetroRettangolo.calcolaPerimetro();
